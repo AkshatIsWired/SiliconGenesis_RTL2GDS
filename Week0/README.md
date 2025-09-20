@@ -115,7 +115,7 @@ sudo apt install gtkwave
 > 🔌 Simulates analog and mixed-signal circuits.
 
 ```bash
-# Download from: https://sourceforge.net/projects/ngspice/files/ng-spice-rework/37/
+# Download from: https://sourceforge.net/projects/ngspice/files/
 tar -zxvf ngspice-37.tar.gz
 cd ngspice-37
 mkdir release
@@ -126,7 +126,7 @@ sudo make install
 
 MODIFIED CODE FOR NEWER VERSIONS-
 
-# Download from: https://sourceforge.net/projects/ngspice/files/ng-spice-rework/37/
+# Download from: https://sourceforge.net/projects/ngspice/files/
 tar -zxvf ngspice-45.2.tar.gz
 cd ngspice-45.2
 mkdir release
