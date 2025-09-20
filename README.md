@@ -1,5 +1,5 @@
-# 🚀 SiliconGenesis: My RISC-V SoC Tapeout Journey 🚀
-
+# 🚀 SiliconGenesis: My RISC-V Reference SoC Tapeout Program Journey 🚀
+https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSD_IITGN_SYNP_SCL-1024x576.png.webp
 <p align="center">
   <img src="https://img.shields.io/badge/Program-RISC--V_SoC_Tapeout-blue?style=for-the-badge&logo=riscv" alt="Program Badge">
   <img src="https://img.shields.io/badge/ORGANISERS-VSD & IIT Gandhinagar-green?style=for-the-badge" alt="VSD Badge">
@@ -25,7 +25,7 @@ We are using a powerful suite of open-source tools to navigate the entire VLSI d
 
 ---
 
-## 🗺️ My Journey Log
+## 🗺️ My Journey Log 
 
 This table will be updated weekly, linking to the detailed documentation for each phase of the program.
 
