@@ -86,7 +86,7 @@ sudo apt-get install iverilog
 ```
 
 📸 **Verification Snapshot**:  
-*(Insert screenshot of `iverilog -v` or simulation output)*
+![Iverilog Verification](Assets/iverilog-ss.png)
 
 </details>
 
