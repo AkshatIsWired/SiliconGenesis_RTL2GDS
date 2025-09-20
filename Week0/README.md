@@ -49,6 +49,8 @@ A robust environment is essential for smooth VLSI design workflows. Below is a c
 
 All tools were installed in sequence. Each section includes **installation commands** and  **verification screenshots**.
 
+Kindly expand the drop-down for viewing the commands and respective implementation screenshots.
+
 ---
 
 <details>
