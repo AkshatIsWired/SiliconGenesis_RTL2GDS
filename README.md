@@ -1,5 +1,5 @@
 # 🚀 SiliconGenesis: My RISC-V Reference SoC Tapeout Program Journey 🚀
-https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSD_IITGN_SYNP_SCL-1024x576.png.webp
+![failed to open image](https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSD_IITGN_SYNP_SCL-1024x576.png.webp)
 <p align="center">
   <img src="https://img.shields.io/badge/Program-RISC--V_SoC_Tapeout-blue?style=for-the-badge&logo=riscv" alt="Program Badge">
   <img src="https://img.shields.io/badge/ORGANISERS-VSD & IIT Gandhinagar-green?style=for-the-badge" alt="VSD Badge">
@@ -8,6 +8,16 @@ https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSD_IITGN_SYNP_SCL-1
 ## 📖 About This Repository
 
 Welcome to `SiliconGenesis`! This repository is my digital logbook for the 20-week **RISC-V SoC Tapeout Program**, a landmark initiative by **IIT Gandhinagar** and **VLSI System Design (VSD)**. My goal is to document every step of this "Concept to Silicon" journey, from initial setup to the final tapeout, as a contribution to India's growing semiconductor mission 🇮🇳.
+
+## ✨ Program Highlights
+
+| Feature             | Description                                                                                             |
+| :------------------ | :------------------------------------------------------------------------------------------------------ |
+| 🔬 **Core Curriculum** | An end-to-end 20-week journey covering the full VLSI flow, from RTL design to final silicon tapeout. |
+| 💻 **Technology Stack** | Hands-on experience with a powerful suite of open-source EDA tools like Yosys, OpenLane, and Magic.  |
+| 🎯 **Key Outcome** | A unique opportunity for the top 20 student designs to be manufactured into physical silicon chips at SCL. |
+| 🇮🇳 **Mission Objective** | To train the 3500+ registered candidates in the field of VLSI and To build a skilled VLSI workforce and contribute directly to India's semiconductor self-reliance.     |
+| 🎓 **Career Impact** | Develops fabrication-focused, job-ready skills by using industry-grade design methodologies.        |
 
 ---
 
@@ -25,7 +35,7 @@ We are using a powerful suite of open-source tools to navigate the entire VLSI d
 
 ---
 
-## 🗺️ My Journey Log 
+## 🗺️ My Journey Log 🎯
 
 This table will be updated weekly, linking to the detailed documentation for each phase of the program.
 
