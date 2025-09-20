@@ -69,7 +69,7 @@ sudo make install
 ```
 
 📸 **Verification Snapshot**:  
-![Yosys Verification] (./Week0/Assets/Screenshot from 2025-09-20 21-43-49.png)
+![Yosys Verification](.Week0/Assets/yosys-ss.png)
 
 </details>
 
