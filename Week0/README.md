@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Week-0-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OS-Ubuntu_20.04LTS-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OS-Ubuntu_24.04.3LTS-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Virtualization-VMware-orange?style=for-the-badge" />
 </p>
 
@@ -37,7 +37,7 @@ A robust environment is essential for smooth VLSI design workflows. Below is a c
 | Component       | Specification             |
 |-----------------|---------------------------|
 | **Virtualization** | VMware Workstation        |
-| **OS**          | Ubuntu 20.04 LTS          |
+| **OS**          | Ubuntu 24.04.3 LTS          |
 | **RAM**         | 8 GB                      |
 | **Storage**     | 80 GB (External SSD)      |
 | **vCPUs**       | 8 (2 CPUs × 4 Cores)      |
