@@ -203,7 +203,7 @@ make test
 ```
 
 📸 **Verification Snapshot**:  
-*(Insert screenshot of successful `make test` or first PDK build)*
+will be added
 
 </details>
 
@@ -218,7 +218,7 @@ make test
 | **GTKWave**  | ✅ Installed | Waveform Visualization    |
 | **ngspice**  | ✅ Installed | Circuit Simulation        |
 | **Magic**    | ✅ Installed | Layout & DRC              |
-| **OpenLane** | ✅ Installed | Automated GDSII Flow      |
+| **OpenLane** | will be Installed | Automated GDSII Flow      |
 
 ## 🧩 Open-Source VLSI Design Flow (RTL to GDSII)
 
@@ -229,7 +229,7 @@ This repository uses the following open-source EDA tools, installed and verified
 | 1      | RTL Design & Functional Sim   | **Iverilog**  | ✅ Installed | Simulate Verilog RTL behavior pre-synthesis   |
 | 2      | Waveform Debugging            | **GTKWave**   | ✅ Installed | Visualize simulation results (.vcd files)     |
 | 3      | Logic Synthesis               | **Yosys**     | ✅ Installed | Convert RTL → Gate-level netlist              |
-| 4      | Automated Place & Route       | **OpenLane**  | ✅ Installed | Auto P&R, generate final GDSII layout         |
+| 4      | Automated Place & Route       | **OpenLane**  | will be installed | Auto P&R, generate final GDSII layout         |
 | 5      | Layout Editing & DRC/LVS      | **Magic**     | ✅ Installed | Manual layout, DRC, LVS, extraction           |
 | 6      | Circuit/SPICE Simulation      | **ngspice**   | ✅ Installed | Post-layout analog simulation, timing, power   |
 
