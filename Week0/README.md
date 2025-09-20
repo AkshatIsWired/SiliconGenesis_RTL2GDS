@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Week-0-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/OS-Ubuntu_22.04-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OS-Ubuntu_20.04LTS-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Virtualization-VMware-orange?style=for-the-badge" />
 </p>
 
@@ -103,7 +103,7 @@ sudo apt install gtkwave
 ```
 
 📸 **Verification Snapshot**:  
-*(Insert screenshot of GTKWave opening a sample .vcd file)*
+![gtkwave Verification](Assets/gtkwave-ss.png)
 
 </details>
 
