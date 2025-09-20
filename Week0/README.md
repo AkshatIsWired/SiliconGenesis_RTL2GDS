@@ -142,7 +142,7 @@ sudo make install
 ```
 
 📸 **Verification Snapshot**:  
-*(Insert screenshot of `ngspice` launching successfully)*
+![Iverilog Verification](Assets/ngspice-ss.png)
 
 </details>
 
