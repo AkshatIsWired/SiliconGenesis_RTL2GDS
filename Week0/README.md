@@ -30,7 +30,7 @@ A robust environment is essential for smooth VLSI design workflows. Below is a c
 
 ---
 
-### ⚡ My Custom High-Performance Setup
+### ⚡ My Custom Setup
 
 > *Optimized for my personal preferences*
 
