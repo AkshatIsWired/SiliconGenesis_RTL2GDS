@@ -18,11 +18,11 @@ We are using a powerful suite of open-source tools to navigate the entire VLSI d
 
 | Stage in Flow             | Tool Name                                       | Purpose                                            |
 | :------------------------ | :---------------------------------------------- | :------------------------------------------------- |
-| **Simulation** | [cite_start]`Icarus Verilog` & `GTKWave` [cite: 25, 29]      | To simulate and visualize our Verilog code's behavior. |
-| **Synthesis** | [cite_start]`Yosys` [cite: 14]                              | To translate our RTL code into a gate-level netlist.   |
-| **Physical Design** | [cite_start]`Magic` [cite: 51]                              | For editing and analyzing the physical VLSI layout.    |
-| **Automated Flow** | [cite_start]`OpenLane` [cite: 79]                           | An automated flow that handles the entire RTL to GDSII process.   |
-| **Circuit Simulation** | [cite_start]`ngspice` [cite: 34]                            | For post-layout analog and mixed-signal simulation.       |
+| **Simulation** |           `Icarus Verilog` & `GTKWave`                     | To simulate and visualize our Verilog code's behavior. |
+| **Synthesis** |            `Yosys`                                          | To translate our RTL code into a gate-level netlist.   |
+| **Physical Design** |       `Magic`                                        | For editing and analyzing the physical VLSI layout.    |
+| **Automated Flow** |       `OpenLane`                                       | An automated flow that handles the entire RTL to GDSII process.   |
+| **Circuit Simulation** |    `ngspice`                                       | For post-layout analog and mixed-signal simulation.       |
 
 ---
 
