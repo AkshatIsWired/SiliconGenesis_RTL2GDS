@@ -37,7 +37,7 @@ A robust environment is essential for smooth VLSI design workflows. Below is a c
 | Component       | Specification             |
 |-----------------|---------------------------|
 | **Virtualization** | VMware Workstation        |
-| **OS**          | Ubuntu 22.04 LTS          |
+| **OS**          | Ubuntu 20.04 LTS          |
 | **RAM**         | 8 GB                      |
 | **Storage**     | 80 GB (External SSD)      |
 | **vCPUs**       | 8 (2 CPUs × 4 Cores)      |
