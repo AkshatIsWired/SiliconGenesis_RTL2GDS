@@ -69,7 +69,7 @@ sudo make install
 ```
 
 📸 **Verification Snapshot**:  
-*(Insert screenshot of `yosys -h` or successful synthesis here)*
+*(https://github.com/AkshatIsWired/SiliconGenesis_RTL2GDS/blob/9d91cbf13edde074ae5d64f9e881838ec757b18a/Week0/Assets/Screenshot%20from%202025-09-20%2021-43-49.png)*
 
 </details>
 
