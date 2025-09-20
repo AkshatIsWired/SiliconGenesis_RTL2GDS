@@ -15,7 +15,7 @@
 
 ## 🖥️ System Configuration
 
-A robust environment is essential for smooth VLSI design workflows. Below is a comparison between the **recommended setup** and my **custom high-performance configuration**.
+A robust environment is essential for smooth VLSI design workflows. Below is a comparison between the **recommended setup** and my **custom configuration**.
 
 ### 📋 Suggested Configuration
 > *Baseline specs as per program guidelines.*
@@ -32,7 +32,7 @@ A robust environment is essential for smooth VLSI design workflows. Below is a c
 
 ### ⚡ My Custom High-Performance Setup
 
-> *Optimized for speed, responsiveness, and future scalability.*
+> *Optimized for my personal preferences*
 
 | Component       | Specification             |
 |-----------------|---------------------------|
@@ -42,7 +42,6 @@ A robust environment is essential for smooth VLSI design workflows. Below is a c
 | **Storage**     | 80 GB (External SSD)      |
 | **vCPUs**       | 8 (2 CPUs × 4 Cores)      |
 
-✅ **Why this setup?** Faster I/O, smoother simulations, and no lag during layout or synthesis.
 
 ---
 
