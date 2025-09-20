@@ -132,6 +132,11 @@ cd ngspice-45.2
 mkdir release
 cd release
 ../configure --with-x --with-readline=yes --disable-debug
+
+(had to run the following commands for the "make" command to run successfully-
+sudo apt update
+sudo apt install automake autoconf libtool)
+
 make
 sudo make install
 ```
