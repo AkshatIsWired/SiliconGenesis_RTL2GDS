@@ -2,8 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Program-RISC--V_SoC_Tapeout-blue?style=for-the-badge&logo=riscv" alt="Program Badge">
-  <img src="https://img.shields.io/badge/Institution-IIT_Gandhinagar-orange?style=for-the-badge" alt="IIT Gandhinagar Badge">
-  <img src="https://img.shields.io/badge/Partner-VSD-green?style=for-the-badge" alt="VSD Badge">
+  <img src="https://img.shields.io/badge/ORGANISERS-VSD & IIT Gandhinagar-green?style=for-the-badge" alt="VSD Badge">
 </p>
 
 ## 📖 About This Repository
