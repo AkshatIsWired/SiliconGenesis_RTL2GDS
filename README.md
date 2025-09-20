@@ -1,5 +1,5 @@
 # 🚀 SiliconGenesis: My RISC-V Reference SoC Tapeout Program Journey 🚀
-![failed to open image](https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSD_IITGN_SYNP_SCL-1024x576.png.webp)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Program-RISC--V_SoC_Tapeout-blue?style=for-the-badge&logo=riscv" alt="Program Badge">
   <img src="https://img.shields.io/badge/ORGANISERS-VSD & IIT Gandhinagar-green?style=for-the-badge" alt="VSD Badge">
@@ -20,6 +20,8 @@ Welcome to `SiliconGenesis`! This repository is my digital logbook for the 20-we
 | 🎓 **Career Impact** | Develops fabrication-focused, job-ready skills by using industry-grade design methodologies.        |
 
 ---
+
+![failed to open image](https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSD_IITGN_SYNP_SCL-1024x576.png.webp)
 
 ## 🛠️ Open-Source EDA Toolchain
 
