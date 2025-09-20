@@ -69,7 +69,7 @@ sudo make install
 ```
 
 📸 **Verification Snapshot**:  
-*(https://github.com/AkshatIsWired/SiliconGenesis_RTL2GDS/blob/9d91cbf13edde074ae5d64f9e881838ec757b18a/Week0/Assets/Screenshot%20from%202025-09-20%2021-43-49.png)*
+*(Week0/Assets/Screenshot from 2025-09-20 21-43-49.png)*
 
 </details>
 
