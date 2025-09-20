@@ -68,8 +68,8 @@ make
 sudo make install
 ```
 
-📸 **Verification Snapshot**:  
-![Yosys Verification](.Assets/yosys-ss.png)
+📸 **Verification Snapshot**: 
+![Yosys Verification](Assets/yosys-ss.png)
 
 </details>
 
