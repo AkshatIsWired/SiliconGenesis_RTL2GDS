@@ -124,7 +124,7 @@ cd release
 make
 sudo make install
 
-MODIFIED CODE FOR NEWER VERSIONS-
+#MODIFIED CODE FOR NEWER VERSIONS-
 
 # Download from: https://sourceforge.net/projects/ngspice/files/
 tar -zxvf ngspice-45.2.tar.gz
@@ -133,7 +133,7 @@ mkdir release
 cd release
 ../configure --with-x --with-readline=yes --disable-debug
 
-(had to run the following commands for the "make" command to run successfully-
+#(had to run the following commands for the "make" command to run successfully-
 sudo apt update
 sudo apt install automake autoconf libtool)
 
