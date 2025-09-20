@@ -142,7 +142,7 @@ sudo make install
 ```
 
 📸 **Verification Snapshot**:  
-![Iverilog Verification](Assets/ngspice-ss.png)
+![ngspice Verification](Assets/ngspice-ss.png)
 
 </details>
 
@@ -166,7 +166,7 @@ sudo make install
 ```
 
 📸 **Verification Snapshot**:  
-*(Insert screenshot of Magic GUI launching or DRC run)*
+![ngspice Verification](Assets/magic-ss.png)
 
 </details>
 
