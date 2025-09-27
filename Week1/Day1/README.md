@@ -130,7 +130,7 @@ Gate Flavors: Multiple variants of the same logic function exist to balance perf
 🔬 4. Lab 2: Logic Synthesis of a 2x1 MUX
 I synthesized good_mux.v using Yosys and the Sky130 HD standard cell library.
 
-<details>
+
 🔹 Lab 2 Details: Yosys Commands and Results.
 
 🔹 Yosys Command Flow
@@ -163,7 +163,6 @@ gtkwave tb_good_mux.vcd
 
 🔑 Why this works: Primary I/Os are unchanged by synthesis, so the same testbench validates both RTL and gate-level. 
 
-</details>
 
 ✅ 5. Day 1 Learning Summary
 RTL Functional Verification
