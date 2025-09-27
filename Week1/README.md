@@ -48,7 +48,7 @@ Here are the two Verilog files used for this simulation.
 <details>
   <summary> MUX Design: `good_mux.v` </summary>
   
-  ```verilog
+  ``verilog
   module good_mux (input i0, input i1, input sel, output reg y);
     always @ (*)
     begin
