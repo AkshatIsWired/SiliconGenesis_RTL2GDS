@@ -43,7 +43,7 @@ The simulator only evaluates outputs when inputs change—no input toggle means 
 I simulated a 2-to-1 multiplexer to verify its logical behavior using **iverilog** and **GTKWave**.
 
 <details>
-<summary>🔹 Click to view Lab 1 Details: Verilog Code, Commands, and Results</summary>
+🔹 Click to view Lab 1 Details: Verilog Code, Commands, and Results
 
 ### 🔹 MUX Design: `good_mux.v`
 ```verilog
@@ -93,7 +93,7 @@ endmodule
 ```
 
 🔹 Simulation Commands
-
+```
 # Compile design + testbench
 iverilog good_mux.v tb_good_mux.v
 
@@ -102,32 +102,40 @@ iverilog good_mux.v tb_good_mux.v
 
 # View waveform
 gtkwave tb_good_mux.vcd
+```
 
 🔹 Waveform Analysis
 ✅ The output y correctly follows:
+```
 
 i0 when sel = 0
 i1 when sel = 1
 (See gtkwave_good_mux_simulation.png in repo for visual confirmation)
 </details>
+```
 
 ⚙️ 3. Core Synthesis Concepts
+```
 After functional verification, the next step is logic synthesis—converting abstract RTL into a physical implementation.
 
 Synthesis: Translates RTL Verilog into a gate-level netlist using standard cells from a technology library.
 .lib (Liberty) File: Contains definitions of all available standard cells (AND, OR, MUX, FFs, etc.) in the target process (e.g., Sky130).
+
 Gate Flavors: Multiple variants of the same logic function exist to balance performance, power, and area:
-Fast Cells: Wider transistors → low delay, but higher power & area → used to meet setup time.
-Slow Cells: Narrower transistors → higher delay, but lower power & area → used to avoid hold time violations.
-💡 Key Insight: Synthesis isn’t just mapping—it’s optimization under constraints. Too many fast cells cause hold violations; too many slow cells hurt performance. 
+
+    Fast Cells: Wider transistors → low delay, but higher power & area → used to meet setup time.
+    Slow Cells: Narrower transistors → higher delay, but lower power & area → used to avoid hold time violations.
+💡 Key Insight: Synthesis isn’t just mapping—it’s optimization under constraints. Too many fast cells cause hold violations; too many slow cells hurt performance.
+```
 
 🔬 4. Lab 2: Logic Synthesis of a 2x1 MUX
 I synthesized good_mux.v using Yosys and the Sky130 HD standard cell library.
 
 <details>
-<summary>🔹 Click to view Lab 2 Details: Yosys Commands and Results</summary>
+🔹 Lab 2 Details: Yosys Commands and Results.
 
 🔹 Yosys Command Flow
+```
 yosys
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog good_mux.v
@@ -135,17 +143,22 @@ synth -top good_mux
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 write_verilog -noattr good_mux_netlist.v
+```
 
 🔹 Synthesis Results
 Yosys mapped the entire MUX to a single standard cell:
+```
 sky130_fd_sc_hd__mux2_1
 Verified via show command (see synthesized_netlist.png in repo).
 Clean netlist generated with -noattr to remove synthesis metadata.
+```
 🔹 Netlist Verification
+```
 Reused the same testbench (tb_good_mux.v) with the synthesized netlist:
 iverilog good_mux_netlist.v tb_good_mux.v
 ./a.out
 gtkwave tb_good_mux.vcd
+```
 
 ✅ Waveform matched RTL simulation exactly—proving functional equivalence.
 
