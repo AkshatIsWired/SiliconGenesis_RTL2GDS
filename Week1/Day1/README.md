@@ -42,7 +42,6 @@ The simulator only evaluates outputs when inputs change—no input toggle means 
 
 I simulated a 2-to-1 multiplexer to verify its logical behavior using **iverilog** and **GTKWave**.
 
-<details>
 🔹 Click to view Lab 1 Details: Verilog Code, Commands, and Results
 
 ### 🔹 MUX Design: `good_mux.v`
