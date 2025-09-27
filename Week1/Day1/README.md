@@ -102,6 +102,7 @@ iverilog good_mux.v tb_good_mux.v
 # View waveform
 gtkwave tb_good_mux.vcd
 ```
+![gtkwave_Verify](Assets/gtkwave.png)
 
 🔹 Waveform Analysis
 ✅ The output y correctly follows:
@@ -151,6 +152,9 @@ sky130_fd_sc_hd__mux2_1
 Verified via show command (see synthesized_netlist.png in repo).
 Clean netlist generated with -noattr to remove synthesis metadata.
 ```
+![yosys_Verify](Assets/synthesis.png)
+![yosys2_Verify](Assets/yosys2.png)
+
 🔹 Netlist Verification
 ```
 Reused the same testbench (tb_good_mux.v) with the synthesized netlist:
